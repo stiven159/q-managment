@@ -1,0 +1,215 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f0f0f0; /* Light gray background */
+  flex-wrap: wrap; /* Ensure wrapping if container is too narrow */
+}
+
+.card-container {
+  flex: 1 1 300px; /* Flexible width with minimum of 300px */
+  max-width: 300px; /* Ensures the card doesn't grow larger than 300px */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  transition: transform 0.2s;
+  margin: 10px; /* Add some margin between cards */
+}
+
+.card-container:nth-child(1) {
+  background-color: #ffcccb; /* Light red background */
+}
+
+.card-container:nth-child(2) {
+  background-color: #add8e6; /* Light blue background */
+}
+
+.card-container:nth-child(3) {
+  background-color: #90ee90; /* Light green background */
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.card-container h1 {
+  font-size: 24px;
+  color: #ff6347; /* Tomato color for the heading */
+  margin-bottom: 10px;
+}
+
+.bt-card {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #20b2aa; /* Light sea green background for button */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.bt-card:hover {
+  background-color: #008b8b; /* Dark cyan on hover */
+}
+
+.text-card {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #6a5acd; /* Slate blue for text */
+}
+
+.card-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+    flex-wrap: wrap; /* Ensure wrapping if container is too narrow */
+  }
+  
+  .card-container {
+    flex: 1 1 300px; /* Flexible width with minimum of 300px */
+    max-width: 300px; /* Ensures the card doesn't grow larger than 300px */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f1f3; /* Light pink background */
+    transition: transform 0.2s;
+    margin: 10px; /* Add some margin between cards */
+  }
+  
+  .card-container:nth-child(odd) {
+    background-color: #c9c4e0; /* Light purple background for odd cards */
+  }
+  
+  .card-container:nth-child(even) {
+    background-color: #a8e6cf; /* Light turquoise background for even cards */
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-container h1 {
+    font-size: 24px;
+    color: #ff7043; /* Deep orange color for the heading */
+    margin-bottom: 10px;
+  }
+  
+  .bt-card {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6a1b9a; /* Dark purple background for button */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bt-card:hover {
+    background-color: #4a148c; /* Darker purple on hover */
+  }
+  
+  .text-card {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #5e35b1; /* Purple color for text */
+  }
+  
+  .card-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+}
+
+/* create bussines */
+.signup-container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.signup-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* button-createBuss */
+.create-business-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(196, 196, 230); /* צבע ורוד עז */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.create-business-button:hover {
+  background-color: #d81b60; /* גוון כהה יותר של ורוד */
+  transform: translateY(-2px); /* אפקט הרמה */
+}
+
+.create-business-button:active {
+  background-color: #c2185b; /* גוון כהה יותר בעת לחיצה */
+  transform: translateY(0); /* החזרה למצב ההתחלתי */
+}
